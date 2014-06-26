@@ -14,7 +14,7 @@
 
 			<h2 class="top-header">Enter New Values</h2>
 
-			<button class="show-form-button">Show / Hide Forms</button>
+			<button id="show-form-button">Show Forms</button>
 
 			<table id="form-input-table">
 			<tr>
@@ -24,19 +24,19 @@
 				<table>
 					<tr>
 						<td>Enter your name:    </td>
-						<td><textarea id="name-enter"></textarea></td>
+						<td><textarea id="name-enter" class="form-entry-point"></textarea></td>
 					</tr>
 					<tr>
 						<td>Enter your bio:  </td>
-						<td><textarea id="bio-enter"></textarea></td>
+						<td><textarea id="bio-enter" class="form-entry-point"></textarea></td>
 					</tr>
 					<tr>
 						<td>Favorite books:  </td>
-						<td><textarea id="book-enter"></textarea></td>
+						<td><textarea id="book-enter" class="form-entry-point"></textarea></td>
 					</tr>
 					<tr>
 						<td>Favorite javascript libraries:  </td>
-						<td><textarea id="js-libraries-enter"></textarea></td>
+						<td><textarea id="js-libraries-enter" class="form-entry-point"></textarea></td>
 					</tr>
 				</table>
 			</form>
@@ -44,6 +44,8 @@
 			<td class="table-cell-submit">
 
 			<input type="submit" value="Submit" class="submit-button"/>
+
+			<button id="clear-form">Clear Form</button>
 
 			<!--
 			<button class="submit-button">Press it</button>
@@ -57,10 +59,19 @@
 		<div class= "container user-container">
 
 			<h2 class="top-header">User Profile</h2>
-			<p id="name-data"></p>
-			<p id="bio-data"></p>
-			<p id="book-data"></p>
-			<p id="js-libraries-data"></p>
+
+			<h3 id="name-data">Name: 
+			</h3>
+
+			<h3 id="bio-data">Bio: 
+			</h3>
+
+			<h3 id="book-data">Favorite Books: 
+			</h3>
+
+			<h3 id="js-libraries-data">Favorite Javascript Libraries: 
+			</h3>
+
 		</div>
 
 

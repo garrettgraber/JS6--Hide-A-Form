@@ -2,7 +2,7 @@
 
 #main {
 	width: 900px;
-	height: 900px;
+	height: 1200px;
 	margin: 0 auto;
 	background-color: gray;
 }
@@ -10,6 +10,10 @@
 #form-input-table {
 	visibility: hidden;
 	height: 100%:;
+}
+
+#clear-form {
+	width: 60%;
 }
 
 .container {
@@ -55,7 +59,7 @@
 	width: 60%;
 }
 
-.show-form-button {
+#show-form-button {
 	display: inline;
 	margin-left: 40%;
 	width: 30%;
@@ -72,6 +76,18 @@
 	display: table-cell;
 	align: center;
 	width: 70%;
+}
+
+.user-data {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: white;
+	border-style: solid;
+	border-radius: 1px;
+	border-color: black;
+	padding: 5px;
 }
 
 
@@ -98,4 +114,13 @@ textarea {
 
 a {
 	color: white;
+}
+
+p {
+	display: inline-block;
+}
+
+h3 {
+	height: 70px;
+	margin-left: 20px;
 }
