@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div id="main">
+
+		<div class="container form-container">
+
+			<h2 class="top-header">Enter New Values</h2>
+
+			<button class="show-form-button">Show / Hide Forms</button>
+
+			<table id="form-input-table">
+			<tr>
+			<td class="table-cell-form">
+			<form class="input-form">
+				
+				<table>
+					<tr>
+						<td>Enter your name:    </td>
+						<td><textarea id="name-enter"></textarea></td>
+					</tr>
+					<tr>
+						<td>Enter your bio:  </td>
+						<td><textarea id="bio-enter"></textarea></td>
+					</tr>
+					<tr>
+						<td>Favorite books:  </td>
+						<td><textarea id="book-enter"></textarea></td>
+					</tr>
+					<tr>
+						<td>Favorite javascript libraries:  </td>
+						<td><textarea id="js-libraries-enter"></textarea></td>
+					</tr>
+				</table>
+			</form>
+			</td>
+			<td class="table-cell-submit">
+
+			<input type="submit" value="Submit" class="submit-button"/>
+
+			<!--
+			<button class="submit-button">Press it</button>
+			-->
+			</td>
+			</tr>
+			</table>
+
+		</div>
+
+		<div class= "container user-container">
+
+			<h2 class="top-header">User Profile</h2>
+			<p id="name-data"></p>
+			<p id="bio-data"></p>
+			<p id="book-data"></p>
+			<p id="js-libraries-data"></p>
+		</div>
+
+
+	</div>
+	
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

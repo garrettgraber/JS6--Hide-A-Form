@@ -1,0 +1,101 @@
+
+
+#main {
+	width: 900px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+#form-input-table {
+	visibility: hidden;
+	height: 100%:;
+}
+
+.container {
+	width: 100%;
+	height: 450px;
+	margin-top: 20px;
+}
+
+.form-container {
+	/*
+	background-color: red;
+	*/
+	overflow: hidden;
+}
+
+.top-header {
+	display: inline;
+	border: 1px;
+	padding: 1px;
+	width: 100%;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.user-container {
+	/*
+	background-color: blue;
+	*/
+}
+
+.input-form {
+	height: 300px;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.submit-button {
+	float: left;
+	display: inline;
+	margin-left: 20%;
+	height: 40px;
+	width: 60%;
+}
+
+.show-form-button {
+	display: inline;
+	margin-left: 40%;
+	width: 30%;
+}
+
+.table-cell-submit {
+	display: table-cell;
+	vertical-align: middle;
+	align: center;
+	width: 30%;
+}
+
+.table-cell-form {
+	display: table-cell;
+	align: center;
+	width: 70%;
+}
+
+
+button {
+	background-color: GreenYellow;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 40px;
+
+}
+
+td {
+	text-align: right;
+}
+
+textarea {
+	margin-left: 20px;
+	margin-top: 10px;
+	
+	height: 60px;
+	width: 500px;
+}
+
+a {
+	color: white;
+}
